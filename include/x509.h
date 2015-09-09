@@ -17,7 +17,7 @@
 
 using namespace v8;
 
-#if NODE_VERSION_AT_LEAST(0, 11, 3, 4) && defined(__APPLE__)
+#if NODE_VERSION_AT_LEAST(4, 0 ,0) && defined(__APPLE__)
   void get_altnames(const FunctionCallbackInfo<Value> &args);
   void get_subject(const FunctionCallbackInfo<Value> &args);
   void get_issuer(const FunctionCallbackInfo<Value> &args);
